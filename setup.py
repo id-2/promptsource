@@ -4,13 +4,13 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    "black<=21.12b0",
+    "black<=24.3.0",
     "datasets>=1.7.0",
     "flake8",
     "isort==5.8.0",
     "pytest",
     "pyyaml>=5",
-    "streamlit==0.82",
+    "streamlit==1.30.0",
     "jinja2",
     "plotly",
     "requests",
